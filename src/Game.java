@@ -61,11 +61,13 @@ public class Game {
             System.out.println("It's a draw!");
         }
     }
-        
-
-       
-
-
-
-    
+    public int getHumanScore() { 
+        return humanScore; 
+    }
+    public int getComputerScore() { 
+        return computerScore; 
+    }
+    public int getDrawScore() { 
+        return drawScore; 
+    }    
 }
